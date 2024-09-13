@@ -1,0 +1,20 @@
+/* styles/animations.module.css */
+@keyframes bounceCustom {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounceCustom {
+  animation: bounceCustom 2s infinite;
+}

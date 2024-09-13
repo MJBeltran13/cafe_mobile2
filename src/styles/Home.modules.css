@@ -1,0 +1,56 @@
+/* styles/Home.module.css */
+
+.heroSection {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.heroImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contentSections {
+  display: hidden;
+}
+
+.contentSection {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+}
+
+.contentButton {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  transition:
+    transform 0.3s,
+    background-color 0.3s;
+}
+
+.contentButton:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+.contentImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .contentSections {
+    max-height: 300px; /* Reduced max-height for smaller screens */
+  }
+}
