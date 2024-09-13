@@ -41,7 +41,7 @@ export default function Home() {
           overflowX: "auto",
           whiteSpace: "nowrap",
           backgroundImage:
-            "linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 9%, rgba(0,0,0,0) 93%, rgba(0,0,0,1) 100%), url(/images/wood.jpg)",
+            "linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 9%, rgba(0,0,0,0) 93%, rgba(0,0,0,1) 100%), url(./images/wood.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
