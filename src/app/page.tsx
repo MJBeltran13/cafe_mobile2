@@ -28,7 +28,7 @@ export default function Home() {
           {/* Background Image */}
           <img
             className="w-full object-cover "
-            src="/images/cafe_severino_trimmed.jpg"
+            src="./images/cafe_severino_trimmed.jpg"
             alt="Cafe Severino"
           />
         </div>
@@ -123,7 +123,7 @@ export default function Home() {
         <div className="relative h-full w-full">
           <img
             className="m-auto h-full w-full object-cover"
-            src="/images/coffee_shop.jpg"
+            src="./images/coffee_shop.jpg"
             alt="Hot Chocolate with Cookies"
           />
         </div>
