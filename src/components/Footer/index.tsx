@@ -25,7 +25,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="mb-12 mt-2 text-left">
+            <div className="mb-2 mt-2 text-left">
               <p className=" text-sm text-gray-300 dark:text-gray-300">
                 &copy; {new Date().getFullYear()} Café Severino. All rights
                 reserved.
