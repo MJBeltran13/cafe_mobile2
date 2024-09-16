@@ -14,8 +14,11 @@ import styles from "./animations.module.css";
 
 // Metadata should be defined in a file or context that is server-side only
 export const metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Cafe Severino Mobile",
+  description: "Brew The View",
+  icons: {
+    icon: "./images/iconn.ico",
+  },
   // other metadata
 };
 
@@ -47,19 +50,19 @@ export default function Home() {
         }}
       >
         <a href="/page1">
-          <button className="relative mr-4 inline-block h-48 w-48  overflow-hidden rounded-lg shadow-lg hover:animate-ping ">
+          <button className=" relative inline-block h-48 w-48  overflow-hidden rounded-lg shadow-lg ">
             <img
               className="m-auto h-full w-full object-cover"
-              src="https://cdn-icons-png.flaticon.com/512/5470/5470133.png"
+              src="./images/coffee1.jpg"
               alt="Hot Chocolate with Cookies"
             />
           </button>
         </a>
 
-        <div className="relative mx-4 inline-block h-48 w-48 overflow-hidden rounded-lg shadow-lg">
+        <div className="relative ml-2 inline-block h-48 w-48 overflow-hidden rounded-lg shadow-lg">
           <img
             className="m-auto h-full w-full object-cover"
-            src="https://cdn-icons-png.flaticon.com/512/2007/2007864.png"
+            src="./images/coffee.jpg"
             alt="Hot Chocolate with Cookies"
           />
           <div className="absolute inset-0 flex items-center justify-center">
@@ -74,10 +77,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative mx-4 inline-block h-48 w-48 overflow-hidden rounded-lg shadow-lg">
+        <div className="relative ml-2 inline-block h-48 w-48 overflow-hidden rounded-lg shadow-lg">
           <img
             className="m-auto h-full w-full object-cover"
-            src="https://cdn-icons-png.flaticon.com/512/7662/7662360.png"
+            src="./images/coffee_shop.jpg"
             alt="Hot Chocolate with Cookies"
           />
           <div className="absolute inset-0 flex items-center justify-center">
@@ -91,29 +94,14 @@ export default function Home() {
             </a>
           </div>
         </div>
-
-        <div className="relative mx-4 inline-block h-48 w-48 overflow-hidden rounded-lg shadow-lg">
-          <img
-            className="m-auto h-full w-full object-cover"
-            src="https://cdn-icons-png.flaticon.com/512/3986/3986687.png"
-            alt="Hot Chocolate with Cookies"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <a href="/page1">
-              {/* <button
-                className="absolute bottom-2 mx-auto transform rounded-md border-white bg-white px-4 py-2 font-bold text-black transition-transform hover:scale-105 hover:bg-gray-200"
-                style={{ left: "50%", transform: "translateX(-50%)" }}
-              >
-                GALLERY
-              </button> */}
-            </a>
-          </div>
-        </div>
       </div>
 
       <div className="my-0 grid grid-cols-2 gap-4 bg-stone-300 ">
         <div className="h-full w-full">
-          <p className="font-regular p-2  text-center text-sm text-black">
+          <p
+            className="font-regular p-2 text-center
+            text-sm  text-black backdrop-blur-md"
+          >
             Severino&lsquo;s Coffee Shop, also known as Cafe Severino @Kalumala
             Heights, is more than just a coffee shop. It&lsquo;s a community
             gathering place where people can connect with nature, enjoy
@@ -123,7 +111,7 @@ export default function Home() {
         <div className="relative h-full w-full">
           <img
             className="m-auto h-full w-full object-cover"
-            src="./images/coffee_shop.jpg"
+            src="./images/love.png"
             alt="Hot Chocolate with Cookies"
           />
         </div>

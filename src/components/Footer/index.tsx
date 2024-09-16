@@ -4,53 +4,33 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-dark">
+    <footer className="bg-gray-dark dark:bg-gray-dark">
       <div className="container mx-auto pb-2">
         {/* Footer Bottom */}
         <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-
         <div className="flex flex-wrap pt-2">
           {/* Logo and Social Media */}
+          <div className="h-px w-full bg-white dark:bg-white"></div>
           <div className="w-full px-2 ">
             <div className="flex flex-col items-center justify-center  lg:justify-center lg:justify-between">
-              {/* Social Media Links */}
-              <div className="mt-2 flex space-x-4 md:mt-0">
-                <a
-                  href="https://www.facebook.com"
-                  className="text-blue-600 hover:text-blue-400"
-                  aria-label="Facebook"
-                >
-                  <FaFacebook size={24} />
-                </a>
-                <a
-                  href="https://www.twitter.com"
-                  className="text-blue-400 hover:text-blue-300"
-                  aria-label="Twitter"
-                >
-                  <FaTwitter size={24} />
-                </a>
-                <a
-                  href="https://www.instagram.com"
-                  className="text-pink-600 hover:text-pink-400"
-                  aria-label="Instagram"
-                >
-                  <FaInstagram size={24} />
-                </a>
-                <a
-                  href="https://www.linkedin.com"
-                  className="text-blue-700 hover:text-blue-500"
-                  aria-label="LinkedIn"
-                >
-                  <FaLinkedin size={24} />
-                </a>
+              <div className="mt-2 text-center">
+                <p className="text-sm text-gray-400 dark:text-gray-400">
+                  Kalumala Heights, Brgy. Alagao, Bauan, Philippines
+                </p>
+                <p className="text-sm text-gray-400 dark:text-gray-400">
+                  0917 819 9632
+                </p>
+                <p className="text-sm text-gray-400 dark:text-gray-400">
+                  cafeseverino522@gmail.com
+                </p>
               </div>
             </div>
-            <div className="mt-6 text-center">
-              <p className="text-sm">
+            <div className="mb-12 mt-2 text-left">
+              <p className=" text-sm text-gray-300 dark:text-gray-300">
                 &copy; {new Date().getFullYear()} Café Severino. All rights
                 reserved.
               </p>
-              <p className="text-sm">Website Gawa ni Mj</p>
+              {/* <p className="text-sm">Website Gawa ni Mj</p> */}
             </div>
           </div>
         </div>
